@@ -179,7 +179,7 @@ module ThinkingSphinx
 
       generate
 
-      open(file_path, "w") do |file|
+      File.open(file_path, "w") do |file|
         file.write @configuration.render
       end
     end
