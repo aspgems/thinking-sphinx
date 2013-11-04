@@ -1,3 +1,3 @@
 module ThinkingSphinx
-  Version = '2.0.14'
+  Version = '2.0.15'
 end
